@@ -1,0 +1,12 @@
+.icon-link {
+  margin: 0 10px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+  color:#61dafb;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.icon-link:hover {
+  transform: scale(1.1);
+}

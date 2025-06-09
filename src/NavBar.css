@@ -1,0 +1,64 @@
+.badge {
+  position: fixed;
+  top: 18px;
+  right: 15px;
+}
+
+.navbar {
+  flex-wrap: wrap;
+  background-color: #282c34;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  gap: 2rem;
+  justify-content: flex-start;
+}
+
+.navbar div {
+  font-size: clamp(12px, 2vw, 18px);
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logoImg {
+  height: 2.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #e6fb61;
+}
+
+.nav-links li a.active {
+  color: #e6fb61;
+  font-weight: bold;
+}
+
+@media (max-width: 960px) {
+  .nav-logo {
+    display: none;
+  }
+}
