@@ -17,39 +17,27 @@ function App() {
         <Route path="/translator" element={<Translator />} />
       </Routes>
       <h4 style={{ textAlign: 'center' }}>© 2025 Created by Wilson Tran</h4>
-      <div className="icon-link">
-      <a
-        href="https://wilsontran.vercel.app/"
-        className="icon-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fas fa-globe fa-2x"></i>
-      </a>
-      <a
-        href="https://github.com/wlsntrn03"
-        className="icon-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-github fa-2x"></i>
-      </a>
-      <a
-        href="https://www.linkedin.com/in/wilson-tran-3a31a922a/"
-        className="icon-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-linkedin fa-2x"></i>
-      </a>
-      <a
-        href="mailto:wlsntrn03@gmail.com"
-        className="icon-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fas fa-envelope fa-2x"></i>
-      </a>
+      <div className="icon-row">
+        <div className="icon-link">
+          <a href="https://wilsontran.vercel.app/" target="_blank" rel="noopener noreferrer" className="icon-link">
+            <i className="fas fa-globe fa-2x"></i>
+          </a>
+        </div>
+        <div className="icon-link">
+          <a href="https://github.com/wlsntrn03" target="_blank" rel="noopener noreferrer" className="icon-link">
+            <i className="fab fa-github fa-2x"></i>
+          </a>
+        </div>
+        <div className="icon-link">
+          <a href="https://www.linkedin.com/in/wilson-tran-3a31a922a/" target="_blank" rel="noopener noreferrer" className="icon-link">
+            <i className="fab fa-linkedin fa-2x"></i>
+          </a>
+        </div>
+        <div className="icon-link">
+          <a href="mailto:wlsntrn03@gmail.com" target="_blank" rel="noopener noreferrer" className="icon-link">
+            <i className="fas fa-envelope fa-2x"></i>
+          </a>
+        </div>
       </div>
     </div>
   );
