@@ -180,7 +180,7 @@ const Translator = () => {
                     ))}
                 </select>
             </div>
-            <button onClick={handleTranslateClick} className="translate-btn">Translate</button>
+            <button onClick={handleTranslateClick} className="translate-btn"><strong>Translate</strong></button>
             {error && <h2 style={{ color: 'red' }}>{error}</h2>}
             {translatedText && (
                 <div className="translated-result">
