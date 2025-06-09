@@ -15,6 +15,20 @@ Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+## Features
+
+### Dictionary
+
+Obtain various definitions of a word.
+
+### Thesaurus
+
+Retreive synonyms and antonyms of a word.
+
+### Translator
+
+Translate text to a different language.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
