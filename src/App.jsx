@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './NavBar';
 import Dictionary from './pages/Dictionary/Dictionary';
 import Thesaurus from './pages/Thesaurus/Thesaurus';
