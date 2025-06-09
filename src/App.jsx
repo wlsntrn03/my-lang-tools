@@ -17,7 +17,7 @@ function App() {
         <Route path="/translator" element={<Translator />} />
       </Routes>
       <h4 style={{ textAlign: 'center' }}>© 2025 Created by Wilson Tran</h4>
-      <div className="icon-row">
+      <div className="icon-footer">
         <div className="icon-link">
           <a href="https://wilsontran.vercel.app/" target="_blank" rel="noopener noreferrer" className="icon-link">
             <i className="fas fa-globe fa-2x"></i>

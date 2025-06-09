@@ -1,11 +1,10 @@
 /* src/index.css */
 html {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: Century Gothic, sans-serif;
   background: linear-gradient(to right, rgb(50, 0, 86), rgb(157, 0, 157));
   color: white;
-  height: 100vh;
-  display: flex;
+  overflow-y: auto;
   justify-content: center;
   align-items: center;
 }
