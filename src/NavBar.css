@@ -57,14 +57,20 @@
   font-weight: bold;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 600px) {
   .nav-logo {
     display: none;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .badge {
     display: none;
+  }
+  .logoImg {
+    display: none;
+  }
+  .navbar {
+    gap: 0rem;
   }
 }
