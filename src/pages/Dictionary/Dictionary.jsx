@@ -50,7 +50,7 @@ const Dictionary = () => {
                     placeholder="Enter a word"
                     className="input-box"
                 />
-                <button onClick={handleDefineClick} className="input-btn">Define</button>
+                <button onClick={handleDefineClick} className="input-btn"><strong>Define</strong></button>
             </div>
 
             {error && <h2 style={{ color: 'red', whiteSpace: 'pre-wrap' }}>{error}</h2>}
