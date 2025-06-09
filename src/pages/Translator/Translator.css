@@ -67,9 +67,9 @@
   margin-bottom: 25px;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 500px) {
   .translator-page {
-    margin-top: -25px;
+    margin-top: -45px;
     transform: scale(0.8);
   }
 }
