@@ -63,9 +63,9 @@ const Thesaurus = () => {
           value={word}
           onChange={(e) => setWord(e.target.value)}
           placeholder="Enter a word"
-          className="thesaurus-input-box"
+          className="input-box"
         />
-        <button onClick={handleThesaurusClick} className="thesaurize-btn">Thesaurize</button>
+        <button onClick={handleThesaurusClick} className="input-btn">Thesaurize</button>
       </div>
 
       {error && <h2 style={{ color: 'red', whiteSpace: 'pre-wrap' }}>{error}</h2>}

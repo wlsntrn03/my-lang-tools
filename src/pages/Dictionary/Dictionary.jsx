@@ -48,9 +48,9 @@ const Dictionary = () => {
                     value={word}
                     onChange={(e) => setWord(e.target.value)}
                     placeholder="Enter a word"
-                    className="dictionary-input-box"
+                    className="input-box"
                 />
-                <button onClick={handleDefineClick} className="define-btn">Define</button>
+                <button onClick={handleDefineClick} className="input-btn">Define</button>
             </div>
 
             {error && <h2 style={{ color: 'red', whiteSpace: 'pre-wrap' }}>{error}</h2>}
