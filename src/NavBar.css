@@ -67,10 +67,8 @@
   .badge {
     display: none;
   }
-  .logoImg {
-    display: none;
-  }
   .navbar {
-    gap: 0rem;
+    padding: 1rem 1rem;
+    gap: 1rem;
   }
 }
