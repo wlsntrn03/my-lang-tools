@@ -65,7 +65,8 @@
 
 @media (max-width: 500px) {
   .badge {
-    display: none;
+    top: 0;
+    right: 0;
   }
   .navbar {
     padding: 1rem 1rem;
