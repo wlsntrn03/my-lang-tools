@@ -173,7 +173,7 @@ const Translator = () => {
                         <option key={code} value={code}>{name}</option>
                     ))}
                 </select>
-                <span>→</span>
+                <span>➜</span>
                 <select value={targetLang} onChange={(e) => setTargetLang(e.target.value)}>
                     {Object.entries(languages).map(([name, code]) => (
                         <option key={code} value={code}>{name}</option>
