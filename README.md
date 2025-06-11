@@ -3,12 +3,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Installation and Setup Instructions
 
-In the project directory, you can run:
+1. Fork and clone this repository. You will need Node.js and Git installed on your machine.
 
-### `npm run dev`
+2. Installation: `npm install`
 
+3. In the project directory, you can run: `npm run dev`\
 Runs the app in the development mode.\
 Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
