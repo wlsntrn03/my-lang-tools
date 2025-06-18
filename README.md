@@ -19,15 +19,15 @@ The page will reload if you make edits. You will also see any lint errors in the
 ## Features
 
 ### Dictionary
-Obtain various definitions of a word.
+Obtain various definitions of a word.<br>
 ![image](https://raw.githubusercontent.com/wlsntrn03/my-lang-tools/refs/heads/main/public/dictionary.PNG)
 
 ### Thesaurus
-Retreive synonyms and antonyms of a word.
+Retreive synonyms and antonyms of a word.<br>
 ![image](https://raw.githubusercontent.com/wlsntrn03/my-lang-tools/refs/heads/main/public/thesaurus.PNG)
 
 ### Translator
-Translate text to a different language.
+Translate text to a different language.<br>
 ![image](https://raw.githubusercontent.com/wlsntrn03/my-lang-tools/refs/heads/main/public/translator.PNG)
 
 ## Learn More
