@@ -1,5 +1,5 @@
 # Demo - https://mylangtools.vercel.app/
-![image](https://raw.githubusercontent.com/wlsntrn03/my-lang-tools/refs/heads/main/public/mylangtool_demo.PNG)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -19,16 +19,16 @@ The page will reload if you make edits. You will also see any lint errors in the
 ## Features
 
 ### Dictionary
-
 Obtain various definitions of a word.
+![image](https://raw.githubusercontent.com/wlsntrn03/my-lang-tools/refs/heads/main/public/dictionary.PNG)
 
 ### Thesaurus
-
 Retreive synonyms and antonyms of a word.
+![image](https://raw.githubusercontent.com/wlsntrn03/my-lang-tools/refs/heads/main/public/thesaurus.PNG)
 
 ### Translator
-
 Translate text to a different language.
+![image](https://raw.githubusercontent.com/wlsntrn03/my-lang-tools/refs/heads/main/public/translator.PNG)
 
 ## Learn More
 
